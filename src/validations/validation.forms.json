@@ -1,0 +1,25 @@
+{
+    "CREATE_CATEGORY":{
+        "category_name":"required"
+    },
+    "DELETE_CATEGORY":{
+        "category_id":"required"
+    },
+    "CREATE_PRODUCT":{
+        "category_id":"required",
+        "product_name":"required",
+        "price":"required",
+        "images":"",
+        "discreption":""
+    },
+    "REGISTER":{
+        "full_name":"requird",
+        "email":"required",
+        "password":"required"
+    },
+    "LOGIN":{
+        "email":"required",
+        "password":"required"
+    }
+
+}
